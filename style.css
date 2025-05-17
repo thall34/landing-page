@@ -25,9 +25,14 @@ body {
     flex-direction: column;
 }
 
-.header,
-.footer {
-    background-color: #1F2937;
+.header {
+    background-color: #4a6285;
+}
+
+#logo {
+    display: flex;
+    flex: 1;
+    margin: 10px;
 }
 
 .head-container-one {
@@ -35,12 +40,6 @@ body {
     justify-content: space-between;
     margin: 0px 150px;
     margin-bottom: 50px;
-}
-
-#logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    margin: 8px;
 }
 
 .head-container-two {
@@ -55,7 +54,7 @@ body {
 .intro {
     display: flex;
     flex: 1;
-    gap: 8px;
+    gap: 16px;
     flex-direction: column;
 }
 
@@ -92,8 +91,8 @@ button {
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: darkgrey;
-    color: #F9FAF8;
+    /* background-color: darkgrey;
+    color: #F9FAF8; */
 }
 
 #body-header {
@@ -124,6 +123,8 @@ button {
     display: flex;
     height: 150px;
     width: 150px;
+    justify-content: center;
+    align-items: center;
     background-color: #F9FAF8;
     border: solid, #3882F6;
     border-width: 3px;
@@ -172,9 +173,11 @@ button {
     display: flex;
     flex-direction: column;
     flex: 3;
+    gap: 10px;
 }
 
 .footer {
+    background-color: #4a6285;
     display: flex;
     flex-direction: column;
     justify-content: center;
