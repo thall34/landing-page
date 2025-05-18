@@ -13,19 +13,20 @@ a {
 ul {
     display: flex;
     list-style-type: none;
-    margin: 8px;
-    padding: 0;
     gap: 20px;
 }
 
 body {
     min-height: 100vh;
+    min-width: 100vh;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
     background-color: #4a6285;
 }
 
@@ -91,8 +92,6 @@ button {
     flex: 1;
     justify-content: center;
     align-items: center;
-    /* background-color: darkgrey;
-    color: #F9FAF8; */
 }
 
 #body-header {
@@ -177,7 +176,6 @@ button {
 }
 
 .footer {
-    background-color: #4a6285;
     display: flex;
     flex-direction: column;
     justify-content: center;
