@@ -1,70 +1,94 @@
-<!-- HTML for Landing Page -->
-
 <!DOCTYPE>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Whitehall Web Development</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
 
-    <body>
-        <div class="header">
-            <div class="head-container-one">
-                <div id=logo><img src="./images/logo.png" alt ="Whitehall Web Development Logo" height="45"></div>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                    </ul>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitehall Web Development</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="topbar">
+            <img id="logo" src="./images/logo.png" alt="Whitehall Web Development Logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="subheader">
+            <div class="subheader-text">
+                <h1>Your one stop shop for Front End Development!</h1>
+                <p>We look forward to bringing your vision to life!</p>
+                <button>Contact Us</button>
             </div>
-        <!-- first stands for large hero text, second stands for secondary hero text, second is reused for footer -->
-            <div class="head-container-two">   
-                <div class="intro">
-                    <div class="first">Your one stop shop for Front End Development!</div>
-                    <div class="second">We look forward to bringing your vision to life!</div>
-                    <button id="top-button" type="button">Contact Us</button>
+            <img class="subheader-image" src="./images/web-development.jpg"
+                alt="Computer with network lines coming out in an abstract pattern">
+    </header>
+
+    <main>
+
+        <h2 id="body-header">Specializing in</h2>
+        <section class="body-container">
+            <div class="card-container">
+                <figure class="card">
+                    <img src="./images/vscode.png" alt="VS Code">
+                </figure>
+                <figcaption class="info-text">VS Code</figcaption>
+            </div>
+            <div class="card-container">
+                <figure class="card">
+                    <img src="./images/html.png" alt="HTML">
+                </figure>
+                <figcaption class="info-text">HTML</figcaption>
+            </div>
+            <div class="card-container">
+                <figure class="card">
+                    <img src="./images/css.png" alt="CSS">
+                </figure>
+                <figcaption class="info-text">CSS</figcaption>
+            </div>
+            <div class="card-container">
+                <figure class="card">
+                    <img src="./images/js.png" alt="Javascript">
+                </figure>
+                <figcaption class="info-text">Javascript</figcaption>
+            </div>
+        </section>
+
+        <section class="quote">
+            <div class="quote-container">
+                <p>Whitehall Web Development is the real deal. They were very accommodating with me through the
+                    whole process and helped me achieve my dreams of making a website.</p>
+                <p class="source">- John Doe</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-bar">
+                <div class="contact-left">
+                    <h3 id="action">Don't wait, contact us now!</h3>
+                    <p class="product">Get in touch with us by clicking that button to the right</p>
                 </div>
-                <div class="placeholder"><img src="./images/web-development.jpg" alt="Computer with network lines coming out in an abstract pattern" height="250"></div>
+                <button id="bottom-button">Contact Us</button>
             </div>
-        </div>
+        </section>
 
-        <div id="body-header">Specializing in</div>
+    </main>
 
-        <div class="body-container">
-            <div class="card">
-                <div class="info-box"><img src="./images/vscode.png" alt="VS Code" height="100"></div>
-                <div class="info-text">VS Code</div>
-            </div>
-            <div class="card">
-                <div class="info-box"><img src="./images/html.png" alt="HTML" height="100"></div>
-                <div class="info-text">HTML</div>
-            </div>
-            <div class="card">
-                <div class="info-box"><img src="./images/css.png" alt="CSS" height="100"></div>
-                <div class="info-text">CSS</div>
-            </div>
-            <div class="card">
-                <div class="info-box"><img src="./images/js.png" alt="Javascript" height="100"></div>
-                <div class="info-text">Javascript</div>
-            </div>
-        </div>
+    <footer>
+        <p>Copyright © Whitehall Web Development 2025</p>
+    </footer>
+</body>
 
-        <div class="mid-body">
-            <div id="quote">Whitehall Web Development is the real deal. They were very accommodating with me through the whole process and helped me achieve my dreams of making a website.</div>
-            <div class="source">- John Doe</div>
-        </div>
-
-        <div class="bottom-body">
-                <div class="left-items">
-                    <div id="action">Don't wait, contact us now!</div>
-                    <div class="product">Get in touch with us by clicking that button to the right</div>
-                </div>
-                    <button id="bottom-button" type="button">Contact Us</button>
-        </div>
-
-        <div class="footer">
-            <div class="second">Copyright © Whitehall Web Development 2025</div>
-        </div>   
-    </body>
 </html>
